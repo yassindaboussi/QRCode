@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QrCode:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QrCode_jar</output-path>
+    <root id="archive" name="QrCode.jar">
+      <element id="module-output" name="QrCode" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/dist/lib/zxing-core-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/dist/lib/zxing-javase.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/dist/lib/jfoenix-8.0.10.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

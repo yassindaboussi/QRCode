@@ -1,0 +1,90 @@
+* {
+    -fx-font-family: Tahoma;
+    -color-primary: #222831;
+    -color-secondary: #15C39A;
+    -color-primary-light: #393e46;
+}
+
+.root {
+    -fx-background-color: -color-primary
+}
+
+.title {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-weight : bold;
+}
+
+/* Start jfxtabpane */
+
+.tab-title {
+    -fx-padding: 5px 0;
+}
+
+.jfx-tab-pane .headers-region {
+    -fx-background-color: transparent;
+}
+
+.jfx-tab-pane .tab-header-background {
+    -fx-background-color: -color-primary;
+}
+
+.jfx-tab-pane .tab-selected-line {
+    -fx-background-color: -color-secondary;
+}
+
+.jfx-tab-pane .tab {
+    -fx-cursor: hand;
+}
+
+.jfx-tab-pane .tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-font-family: Tahoma;
+    -fx-text-fill: -color-secondary;
+    -fx-font-size: 16px;
+    -fx-font-weight: normal;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-font-family: Tahoma;
+    -fx-text-fill: -color-secondary;
+    -fx-font-size: 16px;
+    -fx-font-weight: normal;
+}
+
+/* End jfxtabpane */
+
+.box-header {
+    -fx-background-color: -color-primary-light;
+    -fx-effect: dropshadow(three-pass-box, rgba(100,100,100,1), 2, 0, 0, 0);
+    -fx-background-radius: 2;
+}
+
+.box-title {
+    -fx-font-size: 17px;
+    -fx-text-fill: -color-secondary
+}
+
+.box-area {
+    -fx-font-size: 15px;
+    -fx-text-fill: #DDD;
+}
+
+.box-area .content {
+    -fx-background-color: -color-primary;
+}
+
+.btn {
+    -fx-pref-width: 100px;
+    -fx-pref-height: 35px;
+    -fx-font-size: 16px;
+    -fx-background-color: #999;
+    -fx-text-fill: #FFF;
+    -jfx-button-type: RAISED;
+    -fx-cursor: hand
+}
+
+.btn-green {-fx-background-color: #15C39A;}
+.btn-red {-fx-background-color: #FF6160;}
+
